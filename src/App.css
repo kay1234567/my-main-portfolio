@@ -1,0 +1,340 @@
+nav {
+    background-color: #0A192F;
+}
+
+.NameAndTitle{
+    color: rgb(255, 255, 255);
+}
+.NameAndTitle:hover {
+    color: rgb(207, 204, 204);
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(255, 255, 255);
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgb(207, 204, 204);
+}
+.navbar-brand {
+    display: flex;
+}
+.navbar-toggler {
+    background-color: #2b5ba8;
+}
+
+.hireMeBtn {
+    background-color: #0A192F;
+}
+.hireMeBtn:hover {
+    background-color: #142d55;
+}
+.nav-link{
+    margin-right: 2rem;
+}
+.navbar-toggler-icon{
+      animation: bounce 2s ease-in-out infinite;
+     
+}
+
+@keyframes bounce {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.5);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+
+.navbar-brand img {
+    height: 3.5rem;
+    align-self: center;
+    margin-right: 1rem;
+}
+
+
+.body {
+    background-color: #0A192F;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+
+
+.row {
+    display: flex;
+    justify-content: space-between
+}
+.col-md-5 {
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    color: #0A192F;
+   
+       display: flex;
+       justify-content: center;
+       align-content: center;
+     
+}
+
+.intro {
+    display: flex;
+        display: flex;
+        align-items: center;
+}
+
+.col-md-5 h4{
+    font-size: x-large;
+}
+.col-md-5 h2 {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.col-md-5 h1 {
+    font-size: x-large;
+}
+.horizontal-line {
+    height: .3rem;
+    width: 80%;
+    margin: 0 auto;
+    background-color: #0A192F;
+}
+
+.myWorksBtn {
+    background-color: #0A192F;
+    border: none;
+    color: white;
+    width: 35%;
+ 
+   
+}
+.myWorksBtn a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+.myWorksBtn:hover {
+    background-color: #142d55;
+}
+.html{
+    font-size: 1.2rem;
+    color:#28a745;   
+}
+.css {
+    font-size: 1.2rem;
+    color: #17a2b8;
+}
+.javascript{
+    color: #ffc107;
+    font-size: 1.2rem;
+}
+.jquery {
+    color: #dc3545;
+    font-size: 1.2rem;
+}
+
+.bootstrap {
+    font-size: 1.2rem;
+    color: #007bff;
+}
+
+.react {
+    font-size: 1.2rem;
+    color: #6c757d;
+}
+
+.skill{
+padding: 1.2rem 0rem;
+}
+
+.progress {
+    height: .2rem;
+}
+
+footer{
+    background-color: #0A192F;
+    border-top: 2px solid;
+}
+
+.my-footer-container {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-icons {
+    display: flex;
+    padding: 1rem 0rem;
+}
+.footer-icons a {
+    color: white;
+    margin: 0rem 1rem;
+    font-size: 2.2rem;
+}
+
+.inspired-by {
+    color: white;
+    padding-bottom: 1rem;
+}
+.inspired-by a{
+    color: white;
+    padding-bottom: 1rem;
+}
+
+.footer-icons a:hover {
+    color: rgb(201, 197, 197);
+}
+
+
+.about {
+    background-color: #ffffff;
+    color: #0A192F;
+    padding: 2rem 0rem;
+}
+
+.about ul {
+    margin: 0;
+}
+.myCore {
+    padding: 1.5rem 0rem;
+}
+.personalSkills {
+    padding: 1.5rem 0rem;
+}
+
+.workExperience {
+    padding: 1.5rem 0rem;
+}
+
+
+.myworks {
+    background-color: #0A192F;
+}
+
+.col-sm-12 {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+    margin: 2rem 0rem;
+}
+
+.col-sm-12 img {
+    height: 50%;
+    width: 50%;
+    padding-bottom: 1.5rem;
+}
+.col-sm-12 h3 {
+    padding-bottom: 1rem;
+  font-size: 1.2rem;
+  color: white;
+}
+
+
+.contactMe{
+    padding: 5rem 0rem;
+}
+
+.contactMe .container {
+    width: 40%;
+}
+
+.contactMe h2 {
+    padding-bottom: 1rem;
+    font-weight: 600;
+}
+
+.contactMe p {
+    color: red;
+}
+
+.contactMe input{
+    background-color:#0A192F;
+    color: white;
+}
+.contactMe input::placeholder {
+    color: white;
+}
+.contactMe input:focus {
+background-color: #0A192F;
+color: white;
+border: none;
+}
+
+.contactMe input:active {
+    background-color: #0A192F;
+    color: white;
+}
+
+.contactMe textarea{
+    background-color: #0A192F;
+    color: white;
+}
+.contactMe textarea::placeholder {
+    color: white;
+}
+.contactMe textarea:focus {
+    color: white;
+    background-color: #0A192F;
+}
+
+.contactMe button{
+    background-color: #0A192F;
+    padding: .5rem 3rem;
+}
+.contactMe button:focus {
+    background-color: #0A192F;
+    padding: .5rem 3rem;
+}
+.contactMe button:hover {
+    background-color: #172e50;
+}
+
+
+.form-group {
+    padding: .5rem 0rem;
+}
+
+.contactMe label {
+    margin: 0;
+}
+
+
+@media (max-width: 590px) {
+  .about{
+      font-size: .9rem;
+  }
+   .container {
+       max-width: 95%;
+   }
+}
+
+@media (max-width: 767px) {
+    .container {
+        max-width: 75%;
+    }
+
+    .col-md-5{
+        margin: 2rem 0rem;
+    }
+    .myWorksBtn {
+        background-color: #0A192F;
+        border: none;
+        color: white;
+        width: 50%;
+
+
+    }
+    .contactMe .container {
+    width: 40%;
+}
+}
+
+
